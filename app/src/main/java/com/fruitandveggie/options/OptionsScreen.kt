@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.sp
 import com.fruitandveggie.R
 import com.fruitandveggie.composables.FruitsAndVegetableDetectionBanner
 import com.fruitandveggie.objectdetector.ObjectDetectorHelper
-import com.fruitandveggie.ui.theme.Turquoise
+import com.fruitandveggie.ui.theme.MintAqua
 import kotlin.math.max
 import kotlin.math.min
 
@@ -86,7 +86,7 @@ fun OptionsScreen(
                 Icon(
                     painterResource(id = R.drawable.ic_minus),
                     contentDescription = null,
-                    tint = Turquoise
+                    tint = MintAqua
                 )
             }
             Box(
@@ -111,7 +111,7 @@ fun OptionsScreen(
                 Icon(
                     painterResource(id = R.drawable.ic_plus),
                     contentDescription = null,
-                    tint = Turquoise
+                    tint = MintAqua
                 )
             }
         }
@@ -140,7 +140,7 @@ fun OptionsScreen(
                 Icon(
                     painterResource(id = R.drawable.ic_minus),
                     contentDescription = null,
-                    tint = Turquoise
+                    tint = MintAqua
                 )
             }
             Box(
@@ -164,7 +164,7 @@ fun OptionsScreen(
                 Icon(
                     painterResource(id = R.drawable.ic_plus),
                     contentDescription = null,
-                    tint = Turquoise
+                    tint = MintAqua
                 )
             }
         }
@@ -194,7 +194,7 @@ fun OptionsScreen(
                 Icon(
                     Icons.Filled.ArrowDropDown,
                     contentDescription = null,
-                    tint = Turquoise
+                    tint = MintAqua
                 )
                 DropdownMenu(
                     expanded = delegateDropdownExpanded,
@@ -242,7 +242,7 @@ fun OptionsScreen(
                 Icon(
                     Icons.Filled.ArrowDropDown,
                     contentDescription = null,
-                    tint = Turquoise
+                    tint = MintAqua
                 )
                 DropdownMenu(
                     expanded = mlModelDropdownExpanded,

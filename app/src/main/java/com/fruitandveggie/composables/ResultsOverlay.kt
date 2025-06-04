@@ -13,8 +13,11 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.unit.dp
-import com.fruitandveggie.ui.theme.Turquoise
+import androidx.compose.ui.unit.sp
+import com.fruitandveggie.ui.theme.MintAqua
+import com.google.mediapipe.tasks.vision.core.RunningMode
 import com.google.mediapipe.tasks.vision.objectdetector.ObjectDetectionResult
 
 // This composable is used to display the results of the object detection
@@ -65,7 +68,7 @@ fun ResultsOverlay(
                 ) {
                     Box(
                         modifier = Modifier
-                            .border(3.dp, Turquoise)
+                            .border(3.dp, MintAqua)
                             .width(boxWidth.dp)
                             .height(boxHeight.dp)
                     )
@@ -77,7 +80,7 @@ fun ResultsOverlay(
                             modifier = Modifier
                                 .background(Color.Black)
                                 .padding(5.dp, 0.dp),
-                            color = Color.White,
+                            color = MintAqua,
                         )
                     }
                 }

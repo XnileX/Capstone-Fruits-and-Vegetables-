@@ -26,7 +26,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.fruitandveggie.ui.theme.Turquoise
+import com.fruitandveggie.ui.theme.CoralBlush
 
 // Here we have the gallery view which is displayed in Home screen
 
@@ -120,7 +120,7 @@ fun GalleryView(
                 selectedMediaUri = null
                 galleryLauncher.launch(arrayOf("image/*", "video/*"))
             },
-            containerColor = Turquoise,
+            containerColor = CoralBlush,
             contentColor = Color.White,
             modifier = Modifier
                 .align(Alignment.BottomEnd)
